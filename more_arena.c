@@ -31,7 +31,7 @@ void *arena_alloc(Arena *a, size_t size) {
     return ptr;
   }
 
-  return NULL; // Out of memory!
+  return nullptr; // Out of memory!
 }
 
 void arena_reset(Arena *a) { a->offset = 0; }
