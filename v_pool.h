@@ -5,7 +5,7 @@
 #include <stddef.h>
 #include <stdint.h>
 
-typedef struct v_pool {
+typedef struct {
   char *buffer;
   struct v_node *free_list;
   size_t chunk_size;
